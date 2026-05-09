@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # script to setup TIDL target on BeagleY-AI running edgeai image
-
+# https://www.beagleboard.org/distros/beagley-ai-ti-sdk-edge-ai-11-00-00-08-2025-09-06
 
 git clone https://github.com/TexasInstruments/edgeai-tidl-tools.git || exit
 cd edgeai-tidl-tools || exit

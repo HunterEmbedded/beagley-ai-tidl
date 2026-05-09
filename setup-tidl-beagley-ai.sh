@@ -6,8 +6,8 @@
 git clone https://github.com/TexasInstruments/edgeai-tidl-tools.git || exit
 cd edgeai-tidl-tools || exit
 # match edgeai image version
-git checkout 11_00_08_00
-
+git checkout 11_00_08_00 || exit
+git am  ../patches/0001-fix-syntax-error-in-update_target.sh.patch || exit
 
 # setup for BeagleY-AI
 export SOC=am67a

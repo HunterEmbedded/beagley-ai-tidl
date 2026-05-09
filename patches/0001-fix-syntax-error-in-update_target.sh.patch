@@ -1,0 +1,24 @@
+From 72dcf777b90700e4c83437c1cd0aa50483ab2580 Mon Sep 17 00:00:00 2001
+From: Iain Hunter <iain@hunterembedded.co.uk>
+Date: Sat, 9 May 2026 09:54:12 +0000
+Subject: [PATCH] fix syntax error in update_target.sh
+
+---
+ update_target.sh | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/update_target.sh b/update_target.sh
+index d8fc72d..0a52553 100755
+--- a/update_target.sh
++++ b/update_target.sh
+@@ -93,7 +93,6 @@ verify_env() {
+             echo
+             echo "AM62A SDK 11.0 does not exist."
+             return 1
+-        fi
+     fi
+ 
+     if [ "$SOC" == "am62a" ] && [ "$TISDK_IMAGE" == "adas" ]; then
+-- 
+2.44.3
+

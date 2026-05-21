@@ -1,4 +1,4 @@
-From 72dcf777b90700e4c83437c1cd0aa50483ab2580 Mon Sep 17 00:00:00 2001
+From 88236ee345cda895e46c125d035262e47e359974 Mon Sep 17 00:00:00 2001
 From: Iain Hunter <iain@hunterembedded.co.uk>
 Date: Sat, 9 May 2026 09:54:12 +0000
 Subject: [PATCH] fix syntax error in update_target.sh

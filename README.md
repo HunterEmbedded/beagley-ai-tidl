@@ -12,15 +12,6 @@ dropbearconvert openssh dropbear \
 chmod 600 /root/.ssh/id_ed25519_github_new.db
 ```
 
-set up git to use dropbear
-
-```
- git config core.sshCommand 'ssh -i /root/.ssh/id_ed25519_github_new.db'
-```
-
-
-
-
 and they clone with
 
 ```

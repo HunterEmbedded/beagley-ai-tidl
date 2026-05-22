@@ -22,10 +22,15 @@ echo " export SOC=am67a
 export TISDK_IMAGE=edgeai
 export SDK_VERSION=11_0 " > ~/.profile
 
+export SOC=am67a
+export TISDK_IMAGE=edgeai
+export SDK_VERSION=11_0
+export UPDATE_FIRMWARE_AND_LIB=0
+
 # install tools
 ./setup.sh
 
-# setup env
+# setup env for specific board
 ./setup_env.sh am67a
 
 # now update the target 
